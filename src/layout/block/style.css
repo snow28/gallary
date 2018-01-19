@@ -183,39 +183,35 @@
 
 /* stylelint-disable */
 
-html{
-  background-color : #fff;
+.section{
+  background-color: var(--ui-block-bg);
 }
-
-
 .title{
-  font-size: 34px;
-  font-family: "Roboto Slab", serif;
-  color:  #323435;
-  font-weight: 700;
-  line-height: 1.3529;
+  font-size: var(--ui-block-title-size);
+  color: var(--ui-block-title-color);
+  line-height: var(--ui-block-title-line-height);
+  font-family: var(--ui-block-title-font-family);
+  font-weight: var(--ui-block-title-font-weight);
 }
 .subtitle{
-  size: 20px;
-  color: #838587;
-  line-height: 1.5;
-  font-family: "Roboto Slab", serif;
-  font-weight: 400;
+  font-size: var(--ui-subtitle-size);
+  color: var(--ui-subtitle-color);
+  line-height: var(--ui-subtitle-line-height);
+  font-family: var(--ui-subtitle-font-family);
+  font-weight: var(--ui-subtitle-font-weight);
 }
-
-.item__picture{
-  padding-top: 100%;
+.item{
+  &__picture{
+    padding-top: 100%;
+   }
+   &__text{
+    color:var( --ui-dark-shade-color);
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+    margin-left: 20%;
+    }
 }
-
-.item__text{
-  color: black;
-  text-align : center;
-  width : 60%;
-  font-size : 20px;
-  margin-left:20%;
-}
-
-
 
 
 /* stylelint-enable */
