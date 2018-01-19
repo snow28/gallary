@@ -1,7 +1,6 @@
 @import "../../../uikit/light/vars.css";
 @import "../../../uikit/media.css";
 @import "../../../uikit/light/buttons.css";
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
 .section {
   min-width: 320px;
   padding: 40px 0;
@@ -205,7 +204,7 @@
     padding-top: 100%;
    }
    &__text{
-    color:var( --ui-dark-shade-color);
+    color: var( --ui-dark-shade-color);
     text-align: center;
     width: 60%;
     font-size: 20px;
